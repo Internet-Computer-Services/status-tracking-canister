@@ -5,7 +5,7 @@ import Error "mo:base/Error";
 import Bool "mo:base/Bool";
 
 actor {
-  var authorizedIds = List.fromArray(["vblpp-bejrg-pegia-rujee-oechi-bunsx-ox5qo-c7y2e-rn73a-kpwbx-3qe", "dbsyz-2yaaa-aaaam-aajva-cai", "3vcmf-xoqzv-hu5oi-xwk6s-4t4qj-wxomm-p2yk4-vk3st-hxpxb-z4hdb-yqe"]);
+  var authorizedIds = List.fromArray(["vblpp-bejrg-pegia-rujee-oechi-bunsx-ox5qo-c7y2e-rn73a-kpwbx-3qe", "dbsyz-2yaaa-aaaam-aajva-cai", "naxvf-nqxob-iipiq-ckoph-vu42e-dyjun-36b3c-6bs2p-pp23w-z367b-2ae"]);
 
   public type canister_id = Principal;
 

@@ -1,3 +1,3 @@
 # ICS Status Tracking Canister
 
-module hash: 6e4f87468aaada3717c4abe064939e263dbe491f25143c69047015d6f5941e13
+module hash: 9ec8f0225aee40810a90bbb81a8324580d8f78164889bae9b94cd2262db7d820
