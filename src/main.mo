@@ -4,8 +4,8 @@ import Principal "mo:base/Principal";
 import Error "mo:base/Error";
 import Bool "mo:base/Bool";
 
-actor {
-  var authorizedIds = List.fromArray(["vblpp-bejrg-pegia-rujee-oechi-bunsx-ox5qo-c7y2e-rn73a-kpwbx-3qe", "dbsyz-2yaaa-aaaam-aajva-cai", "naxvf-nqxob-iipiq-ckoph-vu42e-dyjun-36b3c-6bs2p-pp23w-z367b-2ae"]);
+shared (install) actor class ics_status_tracking_canister(authorizedIdList : List.List<Text>) = this {
+  var authorizedIds : List.List<Text> = authorizedIdList;
 
   public type canister_id = Principal;
 
