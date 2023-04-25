@@ -3,9 +3,10 @@ import Text "mo:base/Text";
 import Principal "mo:base/Principal";
 import Error "mo:base/Error";
 import Bool "mo:base/Bool";
+import Array "mo:base/Array";
 
-actor {
-  var authorizedIds = List.fromArray(["vblpp-bejrg-pegia-rujee-oechi-bunsx-ox5qo-c7y2e-rn73a-kpwbx-3qe", "dbsyz-2yaaa-aaaam-aajva-cai", "3vcmf-xoqzv-hu5oi-xwk6s-4t4qj-wxomm-p2yk4-vk3st-hxpxb-z4hdb-yqe"]);
+shared (install) actor class ics_status_tracking_canister(authorizedIdList : [Text]) = this {
+  var authorizedIds : List.List<Text> = List.fromArray(authorizedIdList);
 
   public type canister_id = Principal;
 
